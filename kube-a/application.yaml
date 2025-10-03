@@ -4,4 +4,7 @@ spring:
 
 http:
   client:
-    host: jetbrains.com # fixme
+    host: kube-b
+
+database:
+  password: "${DB_PASSWORD}"

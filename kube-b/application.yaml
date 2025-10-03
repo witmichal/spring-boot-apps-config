@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kube-b
+
+http:
+  client:
+    host: kube-a
+
+database:
+  password: "${DB_PASSWORD}"
